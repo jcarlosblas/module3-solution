@@ -1,0 +1,31 @@
+/* Header */
+#header-nav {
+    background-color: darkgrey;
+    border-radius: 0;
+    border: 4;
+    border-color: black;
+    clear: left;            
+}
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list a {
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 1.3em;
+}
+#nav-list hr{
+    color: black;
+    margin:0;
+    height: 1px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    
+    .container .navbar-header h1 {
+        margin-left: 20px;
+    }
+}
