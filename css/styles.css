@@ -62,7 +62,7 @@
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-    #main-content p {
+    #main-content section {
         margin-left: 10%;
         margin-right: 10%;
     }   
