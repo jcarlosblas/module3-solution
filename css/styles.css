@@ -14,11 +14,11 @@
 #nav-list a {
     background-color:aliceblue;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 #nav-list hr{
     color: black;
-    margin:0;
+    margin: 0;
     height: 1px;
 }
 
@@ -26,13 +26,8 @@
     margin-left: 20px;
 }
 
-#main-content {
-    padding-top: 60px;
-}
-
 #main-content h1{
     text-align: center;
-    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -49,9 +44,21 @@
     margin-left: 2%;
     margin-right: 2%;
     font-size: 1.1em;
-    height: 1000px;
 }   
  
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    #main-content section {
+        height: 1000px;
+    }   
+  }
+
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #main-content section {
+        height: 1000px;
+    }   
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     #main-content p {
