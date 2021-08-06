@@ -44,21 +44,22 @@
     margin-left: 2%;
     margin-right: 2%;
     font-size: 1.1em;
+    margin-bottom: 2%;
 }   
  
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     #main-content section {
         height: 1000px;
     }   
-  }
+  }*/
 
  /********** Medium devices only **********/
- @media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
    #main-content section {
        height: 1000px;
    }   
- }
+ }*/
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
